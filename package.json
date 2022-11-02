@@ -12,6 +12,8 @@
     "@pandarose/blueprint": "file:./vendor/pandarose/ui-blueprint/ui",
     "@pandarose/core": "file:./vendor/pandarose/ui-core/ui",
     "@pandarose/dom": "file:./vendor/pandarose/ui-dom/ui",
+    "@pandarose/monaco": "file:./vendor/pandarose/ui-monaco/ui",
+    "monaco-editor-webpack-plugin": "^7.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

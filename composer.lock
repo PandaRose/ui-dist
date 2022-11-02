@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "34d4a7eb6f0647a3528435d8d7d856d5",
+    "content-hash": "1659e690fe695ca19d3e5bfba16e79a2",
     "packages": [
         {
             "name": "cocur/slugify",
@@ -568,12 +568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "d3b8e804e5fa3995c9b3951ac8c4faed891957eb"
+                "reference": "3393324d2990110d175d646bae64f12f0154de90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/d3b8e804e5fa3995c9b3951ac8c4faed891957eb",
-                "reference": "d3b8e804e5fa3995c9b3951ac8c4faed891957eb",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/3393324d2990110d175d646bae64f12f0154de90",
+                "reference": "3393324d2990110d175d646bae64f12f0154de90",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -594,10 +594,10 @@
             "require-dev": {
                 "doctrine/coding-standard": "10.0.0",
                 "jetbrains/phpstorm-stubs": "2022.2",
-                "phpstan/phpstan": "1.8.10",
+                "phpstan/phpstan": "1.8.11",
                 "phpstan/phpstan-strict-rules": "^1.4",
-                "phpunit/phpunit": "9.5.25",
-                "psalm/plugin-phpunit": "0.17.0",
+                "phpunit/phpunit": "9.5.26",
+                "psalm/plugin-phpunit": "0.18.0",
                 "squizlabs/php_codesniffer": "3.7.1",
                 "symfony/cache": "^5.4|^6.0",
                 "symfony/console": "^4.4|^5.4|^6.0",
@@ -678,7 +678,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-27T11:34:14+00:00"
+            "time": "2022-11-02T21:04:38+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -1253,16 +1253,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.14.5",
+            "version": "2.14.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "a63e5e8f26ebbebf8ed3c5c691637325512eb0dc"
+                "reference": "f7948baaa0330277c729714910336383286305da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/a63e5e8f26ebbebf8ed3c5c691637325512eb0dc",
-                "reference": "a63e5e8f26ebbebf8ed3c5c691637325512eb0dc",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/f7948baaa0330277c729714910336383286305da",
+                "reference": "f7948baaa0330277c729714910336383286305da",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1318,7 +1318,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.14.5"
+                "source": "https://github.com/filp/whoops/tree/2.14.6"
             },
             "funding": [
                 {
@@ -1326,7 +1326,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-07T12:00:00+00:00"
+            "time": "2022-11-02T16:23:29+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -3755,6 +3755,41 @@
                 "issues": "https://github.com/PandaRose/ui-fabric/issues"
             },
             "time": "2022-10-25T01:23:45+00:00"
+        },
+        {
+            "name": "pandarose/ui-monaco",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:PandaRose/ui-monaco.git",
+                "reference": "f6f8019b207ee6524cadc25a51cf2bd941aacb4d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PandaRose/ui-monaco/zipball/f6f8019b207ee6524cadc25a51cf2bd941aacb4d",
+                "reference": "f6f8019b207ee6524cadc25a51cf2bd941aacb4d",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.packagist.com/pandarose/dists/%package%/%version%/r%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "require-dev": {
+                "pandarose/kojo-framework": "dev-php8"
+            },
+            "default-branch": true,
+            "type": "library",
+            "notification-url": "https://repo.packagist.com/pandarose/downloads/",
+            "support": {
+                "source": "https://github.com/PandaRose/ui-monaco/tree/main",
+                "issues": "https://github.com/PandaRose/ui-monaco/issues"
+            },
+            "time": "2022-10-31T19:16:56+00:00"
         },
         {
             "name": "pandarose/ui-pdf",
@@ -6914,12 +6949,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "45b4b033b25f309ba357c015433aeea668a6a46a"
+                "reference": "ba9fd9b020a450d07d02972a3d450d7895f14066"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/45b4b033b25f309ba357c015433aeea668a6a46a",
-                "reference": "45b4b033b25f309ba357c015433aeea668a6a46a",
+                "url": "https://api.github.com/repos/symfony/string/zipball/ba9fd9b020a450d07d02972a3d450d7895f14066",
+                "reference": "ba9fd9b020a450d07d02972a3d450d7895f14066",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6998,7 +7033,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-17T20:01:40+00:00"
+            "time": "2022-11-02T09:08:04+00:00"
         },
         {
             "name": "symfony/translation",
@@ -7189,12 +7224,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "9e14f552a46cc5a523b734417fa81dfaed7600e2"
+                "reference": "eefb4e899f77fc9d7271072ab213d17d09bb4d52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/9e14f552a46cc5a523b734417fa81dfaed7600e2",
-                "reference": "9e14f552a46cc5a523b734417fa81dfaed7600e2",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/eefb4e899f77fc9d7271072ab213d17d09bb4d52",
+                "reference": "eefb4e899f77fc9d7271072ab213d17d09bb4d52",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -7275,7 +7310,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-09T08:55:43+00:00"
+            "time": "2022-11-02T09:08:04+00:00"
         },
         {
             "name": "symfony/var-exporter",
@@ -8480,7 +8515,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "pandarose/kojo-framework": 20
+        "pandarose/kojo-framework": 20,
+        "pandarose/ui-monaco": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

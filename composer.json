@@ -17,7 +17,8 @@
       }
     },
     "require": {
-      "pandarose/kojo-framework": "dev-php8"
+      "pandarose/kojo-framework": "dev-php8",
+      "pandarose/ui-monaco": "dev-main"
     }
   }
   

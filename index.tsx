@@ -1,6 +1,7 @@
 import '@pandarose/core/load';
 import '@pandarose/blueprint/load';
 import '@pandarose/dom/load';
+import '@pandarose/monaco/load';
 
 import './index.scss';
 
