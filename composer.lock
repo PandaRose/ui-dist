@@ -3622,12 +3622,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PandaRose/ui-blueprint.git",
-                "reference": "f442bcddfdae37e1955c5e5e02f72b3536cd4230"
+                "reference": "869d0b7536527f6c9efc86cf821cd68ba66d9a45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PandaRose/ui-blueprint/zipball/f442bcddfdae37e1955c5e5e02f72b3536cd4230",
-                "reference": "f442bcddfdae37e1955c5e5e02f72b3536cd4230",
+                "url": "https://api.github.com/repos/PandaRose/ui-blueprint/zipball/869d0b7536527f6c9efc86cf821cd68ba66d9a45",
+                "reference": "869d0b7536527f6c9efc86cf821cd68ba66d9a45",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3649,7 +3649,7 @@
                 "source": "https://github.com/PandaRose/ui-blueprint/tree/main",
                 "issues": "https://github.com/PandaRose/ui-blueprint/issues"
             },
-            "time": "2022-09-06T16:08:57+00:00"
+            "time": "2022-11-02T05:50:57+00:00"
         },
         {
             "name": "pandarose/ui-core",

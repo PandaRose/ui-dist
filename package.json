@@ -1,22 +1,21 @@
 {
-    "scripts": {
-      "backend": "php -S 0.0.0.0:8000 -t public/",
-      "watch": "node ./node_modules/webpack-cli/bin/cli.js --watch --progress --mode development --config ./vendor/pandarose/kojo-foundation/webpack/webpack.dev.js",
-      "watch-production": "node ./node_modules/webpack-cli/bin/cli.js --watch --progress --mode production --config ./vendor/pandarose/kojo-foundation/webpack/webpack.dev.js",
-      "build": "node ./node_modules/webpack-cli/bin/cli.js --progress --mode production --config ./vendor/pandarose/kojo-foundation/webpack/webpack.prod.js",
-      "tsc-watch": "cd ui && tsc --watch",
-      "update-all": "composer update && yarn --force",
-      "queue": "vendor/bin/kojo queue/run"
-    },
-    "dependencies": {
-      "@pandarose/blueprint": "file:./vendor/pandarose/kojo-foundation/packages/blueprint",
-      "@pandarose/core": "file:./vendor/pandarose/ui-core/ui",
-      "@pandarose/dom": "file:./vendor/pandarose/ui-dom/ui",
-      "react": "^16.13.1",
-      "react-dom": "^16.13.1"
-    },
-    "devDependencies": {
-      "@pandarose/webpack": "file:./vendor/pandarose/kojo-foundation/webpack"
-    }
+  "scripts": {
+    "backend": "php -S 0.0.0.0:8000 -t public/",
+    "watch": "node ./node_modules/webpack-cli/bin/cli.js --watch --progress --mode development --config ./vendor/pandarose/kojo-foundation/webpack/webpack.dev.js",
+    "watch-production": "node ./node_modules/webpack-cli/bin/cli.js --watch --progress --mode production --config ./vendor/pandarose/kojo-foundation/webpack/webpack.dev.js",
+    "build": "node ./node_modules/webpack-cli/bin/cli.js --progress --mode production --config ./vendor/pandarose/kojo-foundation/webpack/webpack.prod.js",
+    "tsc-watch": "cd ui && tsc --watch",
+    "update-all": "composer update && yarn --force",
+    "queue": "vendor/bin/kojo queue/run"
+  },
+  "dependencies": {
+    "@pandarose/blueprint": "file:./vendor/pandarose/ui-blueprint/ui",
+    "@pandarose/core": "file:./vendor/pandarose/ui-core/ui",
+    "@pandarose/dom": "file:./vendor/pandarose/ui-dom/ui",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@pandarose/webpack": "file:./vendor/pandarose/kojo-foundation/webpack"
   }
-  
+}
