@@ -1,3 +1,15 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
 /*!
  * Determine if an object is a Buffer
  *
@@ -21,6 +33,13 @@
  */
 
 /*!
+ * The buffer module from node.js, for the browser.
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+/*!
  * mime-db
  * Copyright(c) 2014 Jonathan Ong
  * Copyright(c) 2015-2022 Douglas Christopher Wilson
@@ -35,10 +54,27 @@
  */
 
 /*!
- * wavesurfer.js 4.6.0 (2021-03-05)
- * https://wavesurfer-js.org
- * @license BSD-3-Clause
- */
+Copyright (C) 2013-2015 by Andrea Giammarchi - @WebReflection
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+*/
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
@@ -70,135 +106,9 @@ See the Apache Version 2.0 License for specific language governing permissions
 and limitations under the License.
 ***************************************************************************** */
 
-/*! ./absMax */
-
-/*! ./clamp */
-
-/*! ./drawer */
-
-/*! ./drawer.canvasentry */
-
-/*! ./drawer.multicanvas */
-
-/*! ./fetch */
-
-/*! ./frame */
-
-/*! ./get-id */
-
-/*! ./max */
-
-/*! ./mediaelement */
-
-/*! ./mediaelement-webaudio */
-
-/*! ./min */
-
-/*! ./observer */
-
-/*! ./peakcache */
-
-/*! ./prevent-click */
-
-/*! ./request-animation-frame */
-
-/*! ./style */
-
-/*! ./util */
-
-/*! ./util/get-id */
-
-/*! ./util/style */
-
-/*! ./webaudio */
-
-/*! debounce */
-
 /*! http://mths.be/base64 v0.1.0 by @mathias | MIT license */
 
-/*!***********************!*\
-  !*** ./src/drawer.js ***!
-  \***********************/
-
-/*!*************************!*\
-  !*** ./src/util/max.js ***!
-  \*************************/
-
-/*!*************************!*\
-  !*** ./src/util/min.js ***!
-  \*************************/
-
-/*!*************************!*\
-  !*** ./src/webaudio.js ***!
-  \*************************/
-
-/*!**************************!*\
-  !*** ./src/peakcache.js ***!
-  \**************************/
-
-/*!***************************!*\
-  !*** ./src/util/clamp.js ***!
-  \***************************/
-
-/*!***************************!*\
-  !*** ./src/util/fetch.js ***!
-  \***************************/
-
-/*!***************************!*\
-  !*** ./src/util/frame.js ***!
-  \***************************/
-
-/*!***************************!*\
-  !*** ./src/util/index.js ***!
-  \***************************/
-
-/*!***************************!*\
-  !*** ./src/util/style.js ***!
-  \***************************/
-
-/*!***************************!*\
-  !*** ./src/wavesurfer.js ***!
-  \***************************/
-
-/*!****************************!*\
-  !*** ./src/util/absMax.js ***!
-  \****************************/
-
-/*!****************************!*\
-  !*** ./src/util/get-id.js ***!
-  \****************************/
-
-/*!*****************************!*\
-  !*** ./src/mediaelement.js ***!
-  \*****************************/
-
-/*!******************************!*\
-  !*** ./src/util/observer.js ***!
-  \******************************/
-
-/*!***********************************!*\
-  !*** ./src/drawer.canvasentry.js ***!
-  \***********************************/
-
-/*!***********************************!*\
-  !*** ./src/drawer.multicanvas.js ***!
-  \***********************************/
-
-/*!***********************************!*\
-  !*** ./src/util/prevent-click.js ***!
-  \***********************************/
-
-/*!**************************************!*\
-  !*** ./src/mediaelement-webaudio.js ***!
-  \**************************************/
-
-/*!****************************************!*\
-  !*** ./node_modules/debounce/index.js ***!
-  \****************************************/
-
-/*!*********************************************!*\
-  !*** ./src/util/request-animation-frame.js ***!
-  \*********************************************/
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
 /**
  * @license
@@ -207,36 +117,6 @@ and limitations under the License.
  * Released under MIT license <https://lodash.com/license>
  * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
  * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
- */
-
-/**
- * @license React
- * react-dom.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/**
- * @license React
- * react.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-/**
- * @license React
- * scheduler.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
  */
 
 /**
@@ -254,8 +134,35 @@ and limitations under the License.
  * @license Modernizr 3.0.0pre (Custom Build) | MIT
  */
 
+/** @license React v0.19.1
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
 /** @license React v16.13.1
  * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.14.0
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.14.0
+ * react.production.min.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
