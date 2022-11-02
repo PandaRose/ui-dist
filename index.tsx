@@ -1,5 +1,5 @@
 import '@pandarose/core/load';
-import '@pandarose/blueprint/lib/autoload';
+import '@pandarose/blueprint/load';
 import '@pandarose/dom/load';
 
 import './index.scss';
