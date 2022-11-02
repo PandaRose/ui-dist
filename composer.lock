@@ -3657,12 +3657,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PandaRose/ui-core.git",
-                "reference": "7d81a39bc60d14c8f23509f74f518f2708ba2059"
+                "reference": "149dfc94de57abc046073e8905a8ea18e02feb0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PandaRose/ui-core/zipball/7d81a39bc60d14c8f23509f74f518f2708ba2059",
-                "reference": "7d81a39bc60d14c8f23509f74f518f2708ba2059",
+                "url": "https://api.github.com/repos/PandaRose/ui-core/zipball/149dfc94de57abc046073e8905a8ea18e02feb0f",
+                "reference": "149dfc94de57abc046073e8905a8ea18e02feb0f",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3684,7 +3684,7 @@
                 "source": "https://github.com/PandaRose/ui-core/tree/main",
                 "issues": "https://github.com/PandaRose/ui-core/issues"
             },
-            "time": "2022-11-02T05:59:48+00:00"
+            "time": "2022-11-02T06:02:41+00:00"
         },
         {
             "name": "pandarose/ui-dom",
