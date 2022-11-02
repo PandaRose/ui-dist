@@ -3762,12 +3762,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:PandaRose/ui-monaco.git",
-                "reference": "f6f8019b207ee6524cadc25a51cf2bd941aacb4d"
+                "reference": "cb1338b82288a3d5b18aca1c0409c0985be32aeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PandaRose/ui-monaco/zipball/f6f8019b207ee6524cadc25a51cf2bd941aacb4d",
-                "reference": "f6f8019b207ee6524cadc25a51cf2bd941aacb4d",
+                "url": "https://api.github.com/repos/PandaRose/ui-monaco/zipball/cb1338b82288a3d5b18aca1c0409c0985be32aeb",
+                "reference": "cb1338b82288a3d5b18aca1c0409c0985be32aeb",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3789,7 +3789,7 @@
                 "source": "https://github.com/PandaRose/ui-monaco/tree/main",
                 "issues": "https://github.com/PandaRose/ui-monaco/issues"
             },
-            "time": "2022-10-31T19:16:56+00:00"
+            "time": "2022-11-02T21:49:19+00:00"
         },
         {
             "name": "pandarose/ui-pdf",
